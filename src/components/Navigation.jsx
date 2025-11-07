@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './Button';
 import './Navigation.css';
 
+// Навигационная панель с примерами кнопок
 const Navigation = () => {
   const handleNavClick = (page) => {
     alert(`Переход на страницу: ${page}`);
